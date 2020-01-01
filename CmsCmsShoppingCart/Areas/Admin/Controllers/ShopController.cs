@@ -4,6 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Web.Helpers;
 using System.Web.Mvc;
+using CmsShoppingCart.Areas.Admin.Models.ViewModels.Shop;
+using CmsShoppingCart.Models.Data;
+using CmsShoppingCart.Models.ViewModels.Shop;
+using PagedList;
 
 namespace CmsShoppingCart.Areas.Admin.Controllers
 {

@@ -1,4 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using CmsShoppingCart.Models.Data;
+using CmsShoppingCart.Models.ViewModels.Pages;
+using System.Collections.Generic;
+using System.Linq;
 using System.Web.Mvc;
 
 namespace CmsShoppingCart.Areas.Admin.Controllers
