@@ -149,6 +149,10 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\DashboardController.cs" />
+    <Compile Include="Areas\Admin\Controllers\PagesController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ShopController.cs" />
+    <Compile Include="Areas\Admin\Models\ViewModels\Shop\OrdersForAdminVM.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -174,6 +178,18 @@
     </Content>
     <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Admin\Views\Dashboard\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Pages\AddPage.cshtml" />
+    <Content Include="Areas\Admin\Views\Pages\EditPage.cshtml" />
+    <Content Include="Areas\Admin\Views\Pages\EditSidebar.cshtml" />
+    <Content Include="Areas\Admin\Views\Pages\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Pages\PageDetails.cshtml" />
+    <Content Include="Areas\Admin\Views\Shop\AddProduct.cshtml" />
+    <Content Include="Areas\Admin\Views\Shop\Categories.cshtml" />
+    <Content Include="Areas\Admin\Views\Shop\EditProduct.cshtml" />
+    <Content Include="Areas\Admin\Views\Shop\Orders.cshtml" />
+    <Content Include="Areas\Admin\Views\Shop\Products.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -199,8 +215,6 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
-    <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\Data\" />
     <Folder Include="Models\ViewModels\" />
