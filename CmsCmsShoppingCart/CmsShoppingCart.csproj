@@ -349,9 +349,12 @@
     <Content Include="Views\Account\Orders.cshtml" />
     <Content Include="Views\Account\UserNavPartial.cshtml" />
     <Content Include="Views\Account\UserProfile.cshtml" />
+    <Content Include="Views\Cart\AddToCartPartial.cshtml" />
+    <Content Include="Views\Cart\CartPartial.cshtml" />
+    <Content Include="Views\Cart\Index.cshtml" />
+    <Content Include="Views\Cart\PaypalPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\Cart\" />
     <Folder Include="Views\Pages\" />
     <Folder Include="Views\Shop\" />
   </ItemGroup>
